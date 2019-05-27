@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>Аренда недвижимости</title>
+	<meta name="description" content="Аренда недвижимости в городе Балашихе и Киржач" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+		<link rel="stylesheet" href="libs/owl-carousel/owl.carousel_2.3.4.min.css" />
+</head>
+<body> 
+<div id="window">
+    <!-- Картинка крестика -->
+    <img class="close" src="img/close.png" alt=""  onclick="show('none')">
+    <div class="form">
+        <h2>Интересует квартира?</h2>
+        <form>
+            <input type="text" placeholder="Имя" name="name1" class="input">
+            <input type="text" placeholder="Фамилия" name="name2" class="input">
+            <input type="email" placeholder="Емеил" name="email1" class="input">
+            <input type="password" placeholder="Пароль" name="pass1" class="input">
+            <input type='tel' placeholder="Мобильный телефон" name="tel" class="input">
+            <input type="radio" name="radio1"> Мужчина <input type="radio" name="radio1" class="radio"> Женщина
+            <input type="submit" value="Оформить" name="sab" class="input">
+        </form>
+    </div>
+</div> 
+<header>
+    <div class="header_topline">
+	  <div class="container">
+	    <div class="row"> 
+	       <a href="index.html"><p class="col-md-4 logo f24px aligner centro">Ооо недвижимость </p></a>
+		   <nav class="main_menu f18px col-md-8">
+		     <button class="main_menu_button hidden-md hidden-lg"><i class="fa fa-bars" aria-hidden="true"></i></button>
+		     <ul>
+		      <li class="active"><a href="o_nas.html">О компании</a></li>
+		      <li><a href="uslugi.html">Услуги по аренде</a></li>
+		      <li><a href="novosti.html">Новости</a></li>
+		      <li><a href="contacti.html">Контакты</a></li>
+		     </ul>
+			 <div class="top_contacts ">ua@gmail.com
+			 </div>
+		   </nav>
+	    </div>
+      </div>
+	</div>
+    <div class="container">
+	  <div class="row"> 
+		<div class="col-md-12">
+		 <h1 class="f42px">Аренда недвижимости</h1>
+		</div>
+	  </div>
+	  <div class="row"> 
+	    <div class="col-md-12">
+		  <p class="f36px">г.Харьков</p>
+	    </div>
+	  </div>
+   </div>
+</header>
+<section id="description">
+   <div class="container"> 
+     <div class="row">
+	   <div class="col-md-12">
+		 <div class="f24px">
+		  <h2 class="f36px"> О нас </h2>
+          <p> Чтобы получить точные результаты, в полном объеме, эксперт анализирует всю доступную информацию, которая относится к деятельности, реальному состоянию, влияет на перспективы компании. </p>
+          <p> По просьбе заказчика эксперт определяет все типичные и нетипичные параметры, влияющие на реальную цену, проанализировать дебиторскую задолженность, объем основных средств.</p>
+          <p> Наиболее сложными направлениями в оценке предприятий являются анализ ликвидационной стоимости и проведение анализа состояния банка. Определение ликвидационной цены проводится для предприятий, показавших ранее убыточные показатели. Анализ состояния банка зачастую требуется в проблемных ситуациях, при слиянии или продаже банка.</p>
+		 </div>
+	   </div>
+	 </div>
+   </div>
+</section>
+<section id="uslugi" class="f16px">
+   <div class="container"> 
+	 <div class="row">
+	   <div class="col-md-12">
+   	     <h2 class="f36px">Услуги аренды</h2>
+	   </div>
+	 </div>
+	 <div class="slider_container">
+	 <div class="next_button"><i class="fas fa-angle-double-right"></i></div>
+      <div class="prev_button"><i class="fas fa-angle-double-left"></i></div>
+      <div class="owl-carousel">
+		  <div class="slide_item">
+			<div class="house">
+			 <img src="img/house1.jpg" alt="Дом">
+			 <div class="house_description">
+			  <p> Цена: <span class="bold">7 000 ГРН </span></p>
+			  <p> Цена за м <span class="sup">2</span>: <span class="bold">100 ГРН </span></p>
+			  <p> Тип: <span class="bold">Квартира </span></p>
+			  <p> Комнаты: <span class="bold">1</span></p>
+			  <p> Материал здания: <span class="bold">Панель </span></p>
+			 </div>
+			 <button onclick="show('block')" class="button">Более подробная информация</button>
+			</div>
+		  </div>
+		  <div class="slide_item">
+			 <div class="house">
+			  <img src="img/house2.jpg" alt="Дом">
+			  <div class="house_description">
+				<p> Цена: <span class="bold">7 460 ГРН </span> </p>
+				<p> Цена за м <span class="sup">2</span>: <span class="bold">100 ГРН </span></p>
+				<p> Тип: <span class="bold">Квартира </span></p>
+				<p> Комнаты: <span class="bold">1 </span></p>
+				<p> Материал здания: <span class="bold">Панель </span></p>
+			  </div>
+			  <button onclick="show('block')" class="button">Более подробная информация</button>
+			 </div>
+		   </div>
+		   <div class="slide_item">
+			<div class="house">
+			  <img src="img/house3.jpg" alt="Дом">
+			  <div class="house_description">
+				<p> Цена: <span class="bold">4 490 ГРН </span> </p>
+				<p> Цена за м <span class="sup">2</span>: <span class="bold">100 ГРН </span></p>
+				<p> Тип: <span class="bold">Квартира </span></p>
+				<p> Комнаты: <span class="bold">1 </span></p>
+				<p> Материал здания: <span class="bold">Панель </span></p>
+			  </div>
+			  <button onclick="show('block')" class="button">Более подробная информация</button>
+			</div>
+		   </div>
+		   <div class="slide_item">
+			 <div class="house">
+			   <img src="img/house4.jpg" alt="Дом">
+			   <div class="house_description">
+				 <p> Цена: <span class="bold">6 603 ГРН </span> </p>
+				 <p> Цена за м <span class="sup">2</span>: <span class="bold">100 ГРН </span></p>
+				 <p> Тип: <span class="bold">Квартира </span></p>
+				 <p> Комнаты: <span class="bold">1 </span></p>
+				 <p> Материал здания: <span class="bold">Панель  </span></p>
+			   </div>
+			   <button onclick="show('block')" class="button">Более подробная информация</button>
+			 </div>
+		   </div>
+	  </div>
+	</div>
+   </div>
+</section>
+<section id="news" class="f24px">
+  <div class="container">
+	<div class="row">
+	  <div class="col-md-12">
+   	    <h2 class="f36px">Новости</h2>
+	  </div>
+	</div>
+	<div class="row novosti">
+      <div class="col-lg-3">
+		<img src="img/news1.jpg" alt="Дом">
+	  </div>
+	  <div class="col-lg-9">
+	    <p class="bold">Рост цен в Харькове на квартиры на 2019 год </p>
+	    <p class="f18px">12.03.2017</p>
+	    <p>На этой неделе рост цен на квартиры в Харькове, о котором писал в предыдущих обзорах, продолжился. В среднем по городу квадратный метр подорожал на 1,6% в долларовом эквиваленте.</p>
+	  </div>
+	</div>
+	<div class="row novosti">
+      <div class="col-lg-3">
+		<img src="img/news2.jpg" alt="Дом">
+	  </div>
+	  <div class="col-lg-9">
+	    <p class="bold">Рост цен в Харькове на квартиры на квартиры на 2018 год  </p>
+	    <p class="f18px">12.03.2017</p>
+	    <p>На этой неделе рост цен на квартиры в Харькове, о котором писал в предыдущих обзорах, продолжился. В среднем по городу квадратный метр подорожал на 1,6% в долларовом эквиваленте.</p>
+	  </div>
+	</div>
+	<div class="row novosti">
+      <div class="col-lg-3">
+		<img src="img/news3.jpg" alt="Дом">
+	  </div>
+	  <div class="col-lg-9">
+	    <p class="bold">Рост цен в Харькове на квартиры на квартиры на 2017 год </p>
+	    <p class="f18px">12.03.2017</p>
+	    <p>На этой неделе рост цен на квартиры в Харькове, о котором писал в предыдущих обзорах, продолжился. В среднем по городу квадратный метр подорожал на 1,6% в долларовом эквиваленте.</p>
+	  </div>
+	</div>
+  </div>
+</section>
+<section id="map">
+ <div class="container">
+   <div class="row">
+    <div class="col-md-4 col-md-offset-8">
+      <div class="container2 f18px">
+		 <h3 class="f48px"> Местоположение </h3>
+		 <p> Офис легко найти в 10 минутах от метро Алексеевка. Нас легко найти, приезжайте к нам! </p>
+		 <div class="info">
+		  <div class="contacti1">
+			<p> +38 (095)128-29-38 </p>
+		  </div>
+		  <div class="contacti2">
+			<p> ua@gmail.com </p>
+		  </div>
+		  <div class="contacti3">
+			<p> г. Харьков, Победоносная 19 </p>
+		  </div>
+		 </div>
+	  </div>
+	</div>
+   </div> 
+ </div>  
+</section>
+<footer>
+   <p class="f24px aligner">© Copyright 2019 </p>
+</footer>
+<!--подкючение плагина html 5 shiw для старых браузеров-->
+	<!--[waypoints lt IE 9]> 
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	 <script src="libs/jquery/jquery-3.3.1.min.js"></script> 
+    <script src="js/common.js"></script>
+	<script src="libs/owl-carousel/owl.carousel_2.3.4.min.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

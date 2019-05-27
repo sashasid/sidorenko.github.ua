@@ -1,0 +1,3 @@
+[2018-01-04 16:28:25] layer "house@mail.ru": Unsupported extension: ru
+[2018-01-04 16:28:25] layer "+44 (0) 1732 885566 ": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-01-04 16:28:25] layer "fruts@mail.ru": Unsupported extension: ru
